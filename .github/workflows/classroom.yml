@@ -6,6 +6,11 @@
           - 'parte_fracc.py'
           - '.github/classroom/autograding.json'
 
+    permissions:
+      checks: write
+      actions: read
+      contents: read
+
     jobs:
       build:
         name: Autograding
