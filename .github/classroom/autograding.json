@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 parte_fracc.py",
+      "input": "1",
+      "output": "No tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 parte_fracc.py",
+      "input": "1.2",
+      "output": "Sí tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 parte_fracc.py",
+      "input": "-0.9",
+      "output": "Sí tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 parte_fracc.py",
+      "input": "0",
+      "output": "No tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 parte_fracc.py",
+      "input": "123.",
+      "output": "No tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
