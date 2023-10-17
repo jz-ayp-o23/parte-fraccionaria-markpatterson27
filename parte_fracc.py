@@ -12,7 +12,7 @@ entrada = input()
 i_tried = "my spanish is not very good."
 salida = ""
 
-if entrada == 1:
+if entrada == "1":
   salida = "No tiene decimales"
 
 
