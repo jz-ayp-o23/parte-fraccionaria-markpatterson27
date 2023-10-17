@@ -11,6 +11,9 @@ entrada = input()
 # Proceso
 i_tried = "my spanish is not very good."
 
+if entrada == 1:
+  salida = "No tiene decimales"
+
 
 # Salidas
 print(salida)
