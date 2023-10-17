@@ -9,6 +9,7 @@ CONSTANTE = valor
 entrada = input()
 
 # Proceso
+i_tried = "my spanish is not very good."
 
 
 # Salidas
