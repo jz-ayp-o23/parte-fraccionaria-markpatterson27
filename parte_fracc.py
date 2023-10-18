@@ -15,6 +15,15 @@ salida = ""
 if entrada == "1":
   salida = "No tiene decimales"
 
+if '.' in entrada:
+  salida = "Sí tiene decimales"
+else:
+  try:
+    entrada = int(entrada)
+    salida = "No tiene decimales"
+  except:
+    salida = i_tried
+
 
 # Salidas
 print(salida)
